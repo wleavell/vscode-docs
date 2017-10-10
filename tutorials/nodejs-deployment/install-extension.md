@@ -1,19 +1,15 @@
 ---
 Order: 3
-TOCTitle: Create the Website
-PageTitle: Create the Website
+TOCTitle: Install the Azure App Service Extension
+PageTitle: Install the Azure App Service Extension
 MetaDescription:
 MetaSocialImage:
 DateApproved: 10/5/2017
 ShortDescription:
 ---
-# Create the Website
+# Install the Azure App Service Extension
 
-In this step, you will create a new web site in [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/), Microsoft Azure's fully managed platform for hosting web, mobile, and API applications in the cloud.
-
-## Install the Azure App Service Extension
-
-The [Azure App Service extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) lets you quickly create, manage, and deploy sites on Azure App Service.
+The [Azure App Service extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azureappservice) lets you quickly create, manage, and deploy sites on [Azure App Service](https://azure.microsoft.com/en-us/services/app-service/).
 
 > <a class="tutorial-install-extension-btn" href="vscode:extension/ms-azuretools.vscode-azureappservice">Install the Azure App Service extension</a>
 

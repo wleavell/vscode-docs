@@ -9,7 +9,7 @@ ShortDescription:
 ---
 # Create your Node.js Application
 
-In this step, you will create a very simple Node.js application that can be deployed to the Cloud. You will use an application generator to quickly scaffold out the application from a terminal.
+In this step, you will create a very simple Node.js application that can easily be deployed to the cloud. You will use an application generator to quickly scaffold out the application from a terminal.
 
 > **Tip:** If you have already completed the [Node.js tutorial](/docs/nodejs/nodejs-tutorial.md), you can skip ahead to [Create the Website](/tutorials/nodejs-deployment/create-website.md).
 
@@ -43,7 +43,6 @@ $ npm install
 ## Run the Application
 
 Last, let's ensure that the application runs. From the terminal, start the application using the `npm start` command to start the server.
-
 
 ```bash
 $ npm start
