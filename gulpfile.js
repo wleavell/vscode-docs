@@ -1,6 +1,7 @@
 const gulp = require('gulp')
 const $ = require('shelljs')
 
+console.log(process.env['token'])
 const TOKEN = process.env['token']
 if (!TOKEN) {
   $.echo('This script clones vscode-website and requires access token')
