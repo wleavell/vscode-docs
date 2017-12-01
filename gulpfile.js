@@ -24,6 +24,6 @@ gulp.task('clone-repo', done => {
     $.exec(`git clone --depth=1 --branch=sync-build ${URL}`)
   }
   $.cd('vscode-website')
-  console.log('here')
-  $.exec(`token=${TOKEN} ./scripts/setup.sh`)
+  $.env['token'] = TOKEN
+  $.exec(`./scripts/setup.sh`)
 })
