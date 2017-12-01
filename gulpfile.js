@@ -25,5 +25,6 @@ gulp.task('clone-repo', done => {
   }
   $.cd('vscode-website')
   $.env['token'] = TOKEN
-  $.exec(`./scripts/setup.sh`)
+  console.log('starting setup')
+  $.exec(`scripts/setup.sh`)
 })
