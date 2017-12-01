@@ -16,9 +16,13 @@ gulp.task('clone-repo', done => {
     done()
   }
 
-  $.mkdir('_build')
+  if (!$.test('-e', '_build')) {
+    $.mkdir('_build')
+  }
   $.cd('_build')
-  $.exec(`git clone --depth=1 --branch=sync-build ${URL}`)
+  if (!$.test('-e', 'vscode-website')) {
+    $.exec(`git clone --depth=1 --branch=sync-build ${URL}`)
+  }
   $.cd('vscode-website')
   $.exec(`token=${TOKEN} ./scripts/setup.sh`)
 })
