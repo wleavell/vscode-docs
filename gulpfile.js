@@ -1,7 +1,6 @@
 const gulp = require('gulp')
 const $ = require('shelljs')
 
-console.log(JSON.stringify($.env, null, 2))
 const TOKEN = process.env['GITHUB_TOKEN']
 if (!TOKEN) {
   $.echo('This script clones vscode-website and requires access token')
@@ -26,5 +25,5 @@ gulp.task('clone-repo', done => {
   }
   $.cd('vscode-website')
   console.log('starting setup')
-  $.exec(`scripts/setup.sh`)
+  $.exec(`GITHUB_TOKEN=${TOKEN} scripts/setup.sh`)
 })
