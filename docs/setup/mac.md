@@ -9,8 +9,6 @@ MetaDescription: Get Visual Studio Code up and running on Mac.
 ---
 # Running VS Code on Mac
 
-test
-
 ## Installation
 
 1. [Download Visual Studio Code](https://go.microsoft.com/fwlink/?LinkID=534106) for Mac.
